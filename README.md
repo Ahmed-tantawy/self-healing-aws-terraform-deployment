@@ -1,9 +1,9 @@
 Self-Healing AWS Deployment with Terraform & Docker
-Overview
+**Overview**
 
 This project demonstrates provisioning AWS infrastructure using Terraform and deploying a containerized Python application to EC2 with automated bootstrap configuration.
 
-Features
+**Features**
 
 Infrastructure as Code (Terraform)
 
@@ -17,8 +17,8 @@ Automated container deployment via EC2 user-data
 
 Clean teardown using terraform destroy
 
-Architecture
-
+**Architecture
+**
 Local Machine → Docker Buildx → Docker Hub
 Terraform → AWS EC2 → Docker → Flask App
 
@@ -44,8 +44,8 @@ EC2 bootstrap debugging using cloud-init logs
 
 Docker service initialization timing issues
 
-Future Improvements
-
+**Future Improvements
+**
 Move to ECS or EKS
 
 Add Load Balancer

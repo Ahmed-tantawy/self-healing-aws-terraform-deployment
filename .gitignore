@@ -1,0 +1,5 @@
+venv/
+.terraform/
+*.tfstate
+*.tfstate.backup
+AWSCLIV2.pkg
